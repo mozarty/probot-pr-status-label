@@ -2,5 +2,5 @@
   "requiredStatusRegex": "^:[^:]+: ([^:]+):required$",
   "successStatusRegex": "^:[^:]+: ([^:]+):(?:ok|success)$",
   "pendingStatusRegex": "^:[^:]+: ([^:]+):pending$",
-  "errorStatusRegex": "^:[^:]+: ([^:]+):(?:ko|error)$"
+  "errorStatusRegex": "^(Design Review|In Progress|In QA|Open Discussion|Don't merge yet)$"
 }
